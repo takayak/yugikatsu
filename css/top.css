@@ -86,17 +86,20 @@
   height: auto;
   max-height: 67rem;
   width: 100%;
-  opacity: 0.8;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
 }
 
 section.con1 {
   background-color: #6969b1;
   color: whitesmoke;
+  width: 100vw;
 }
 
 section.con1 .title-head {
   height: 7.4rem;
-  width: 36rem;
+  max-width: 36rem;
+  width: auto;
   margin-bottom: 2rem;
 }
 
@@ -111,7 +114,8 @@ section.con1 .content {
 }
 
 section.con1 .inner {
-  width: 120rem;
+  max-width: 120rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -132,7 +136,8 @@ section.con1 .co3 {
 }
 
 section.con2 .inner {
-  width: 120rem;
+  max-width: 120rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -150,7 +155,8 @@ section.con2 .col-sm-8 {
 
 section.con3 img {
   width: 61.5rem;
-  height: 34rem;
+  max-height: 34rem;
+  height: auto;
   opacity: 0.6;
   position: absolute;
 }
@@ -170,7 +176,8 @@ section.con3 .title {
 }
 
 section.con3 .inner {
-  width: 120rem;
+  max-width: 120rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -178,6 +185,15 @@ section.con3 .col-sm-6 {
   padding: 0;
   overflow: hidden;
   height: 34rem;
+}
+
+section.con4 img {
+  max-width: 61.5rem;
+  width: 100%;
+  max-height: 34rem;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
 }
 
 section.con4 .title {
@@ -191,7 +207,8 @@ section.con4 .title {
 }
 
 section.con4 .inner {
-  width: 120rem;
+  max-width: 120rem;
+  width: auto;
   margin: 0 auto;
 }
 
@@ -199,12 +216,6 @@ section.con4 .col-sm-6 {
   padding: 0;
   height: 34rem;
   background-color: white;
-}
-
-section.con4 .col-sm-6 img {
-  width: 61.5rem;
-  height: 34rem;
-  opacity: 0.4;
 }
 
 section.con4 .co1 {

@@ -73,7 +73,7 @@
     height: auto;
     max-height: 67rem;
     width: 100%;
-    opacity: 0.8;
+    filter: blur(1px);
   }
 }
 
@@ -82,9 +82,11 @@
 section.con1{
   background-color:rgb(105, 105, 177);
   color: whitesmoke;
+  width: 100vw;
   .title-head{
     height: 7.4rem;
-    width: 36rem;
+    max-width: 36rem;
+    width: auto;
     margin-bottom: 2rem;
   }
   .title{
@@ -97,7 +99,8 @@ section.con1{
     font-size: 1.5rem;
   }
   .inner{
-    width: 120rem;
+    max-width: 120rem;
+    width: auto;
     margin: 0 auto;
   }
   .col-sm-4{
@@ -120,7 +123,8 @@ section.con1{
 
 section.con2{
   .inner{
-    width: 120rem;
+    max-width: 120rem;
+    width: auto;
     margin: 0 auto;
   }
   .col-sm-4{
@@ -142,7 +146,9 @@ section.con2{
 section.con3{
   img{
     width: 61.5rem;
-    height: 34rem;
+    // width: auto;
+    max-height: 34rem;
+    height: auto;
     opacity: 0.6;
     position: absolute;
   }
@@ -160,7 +166,8 @@ section.con3{
     padding: 0.5rem;
   }
   .inner{
-    width: 120rem;
+    max-width: 120rem;
+    width: auto;
     margin: 0 auto;
   }
   .col-sm-6{
@@ -175,6 +182,14 @@ section.con3{
   
 }
 section.con4{
+  img{
+    max-width: 61.5rem;
+    width: 100%;
+    max-height: 34rem;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+  }
   .title{
     position: absolute;
     top: 50%;
@@ -185,18 +200,15 @@ section.con4{
     -ms-transform: translate(-50%, -50%);
   }
   .inner{
-    width: 120rem;
+    max-width: 120rem;
+    width: auto;
     margin: 0 auto;
   }
   .col-sm-6{
     padding: 0;
     height: 34rem;
     background-color: rgb(255, 255, 255);
-    img{
-      width: 61.5rem;
-      height: 34rem;
-      opacity: 0.4;
-    }
+   
   }
   .co1{
     background-color: rgb(243, 241, 241);
