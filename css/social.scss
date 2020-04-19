@@ -77,29 +77,11 @@
     // filter: blur(1px);
   }
 }
-
-
 section.con1{
-  
+  padding-top: 6rem;
   .inner{
     max-width: 120rem;
     width: auto;
     margin: 0 auto;
   }
-  .title{
-    text-align: center;
-    font-size: 4rem;
-    font-weight: bold;
-    color: rgb(147, 147, 153);
-    margin:5rem ;
-  }
-  table{
-    width: 90%;
-    margin: 0 auto;
-    font-size: 2rem;
-    tr{
-      height: 5rem;
-    }
-  }
-
 }
