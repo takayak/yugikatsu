@@ -1,3 +1,8 @@
+body {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 .header-1 {
   z-index: 200;
   width: 100%;
@@ -86,5 +91,29 @@
   height: auto;
   max-height: 67rem;
   width: 100%;
+}
+
+section.con1 .inner {
+  max-width: 120rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+section.con1 .title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #939399;
+  margin: 5rem;
+}
+
+section.con1 table {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+
+section.con1 table tr {
+  height: 5rem;
 }
 /*# sourceMappingURL=profile.css.map */
