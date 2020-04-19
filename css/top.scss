@@ -69,7 +69,9 @@
 .main-pic{
   padding-top: 12.7rem;
   .image{
-    height: 67rem;
+    // height: 67rem;
+    height: auto;
+    max-height: 67rem;
     width: 100%;
     opacity: 0.8;
   }

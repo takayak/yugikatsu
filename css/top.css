@@ -83,7 +83,8 @@
 }
 
 .main-pic .image {
-  height: 67rem;
+  height: auto;
+  max-height: 67rem;
   width: 100%;
   opacity: 0.8;
 }
