@@ -51,7 +51,6 @@
       display: flex;
       justify-content: center;
       padding-left: 0;
-      
       a{
         color: rgb(34, 33, 33);
         text-decoration: none;
@@ -75,5 +74,22 @@
     max-height: 67rem;
     width: 100%;
     // filter: blur(1px);
+  }
+}
+
+.inner{
+  max-width: 120rem;
+  width: auto;
+  margin: 0 auto;
+  .inner{
+    max-width: 120rem;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    li{
+      display: inline;
+    }
   }
 }

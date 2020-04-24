@@ -87,4 +87,10 @@
   max-height: 67rem;
   width: 100%;
 }
+
+.inner {
+  max-width: 120rem;
+  width: auto;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=policy.css.map */

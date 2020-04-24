@@ -159,18 +159,18 @@ section.con3 img {
   height: auto;
   opacity: 0.6;
   position: absolute;
+  background-color: blue;
 }
 
 section.con3 .title {
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 2.4rem;
+  font-size: 3rem;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #fcfcfc;
-  border: 1px solid #d1d1d1;
   border-radius: 0.2rem;
   padding: 0.5rem;
 }
@@ -185,6 +185,7 @@ section.con3 .col-sm-6 {
   padding: 0;
   overflow: hidden;
   height: 34rem;
+  background-color: #7575cc;
 }
 
 section.con4 img {
@@ -197,6 +198,8 @@ section.con4 img {
 }
 
 section.con4 .title {
+  color: white;
+  font-size: 4rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -215,14 +218,14 @@ section.con4 .inner {
 section.con4 .col-sm-6 {
   padding: 0;
   height: 34rem;
-  background-color: white;
+  background-color: #6a69a5;
 }
 
 section.con4 .co1 {
-  background-color: #f3f1f1;
+  background-color: #6a69a5;
 }
 
 section.con4 .co2 {
-  background-color: #b9b0b0;
+  background-color: #6a69a5;
 }
 /*# sourceMappingURL=top.css.map */
