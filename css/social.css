@@ -92,24 +92,4 @@
 section.con1 {
   padding-top: 6rem;
 }
-
-section.con1 .inner {
-  max-width: 120rem;
-  width: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-
-section.con1 .inner .inner-make {
-  display: inline-block;
-}
-
-section.con1 .inner .box1 {
-  width: 500px;
-  height: 500px;
-}
-
-section.con1 .inner li {
-  display: inline;
-}
 /*# sourceMappingURL=social.css.map */

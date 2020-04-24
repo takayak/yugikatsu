@@ -2,10 +2,11 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  height: 12rem;
+  height: 11rem;
   font-size: 1.4rem;
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
+  font-weight: bold;
   
   // 
   a {
@@ -68,12 +69,11 @@
 
 .main-pic{
   padding-top: 12.7rem;
+  text-align: center;
   .image{
-    // height: 67rem;
     height: auto;
-    max-height: 67rem;
-    width: 100%;
-    filter: blur(1px);
+    max-height: 50rem;
+    width: auto;
   }
 }
 
