@@ -82,9 +82,11 @@
 .main-pic {
   padding-top: 12.7rem;
   text-align: center;
+  width: 100%;
 }
 
 .main-pic .image {
+  margin: 0 auto;
   height: auto;
   max-height: 50rem;
   width: auto;
