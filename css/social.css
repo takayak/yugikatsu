@@ -1,4 +1,16 @@
 section.con1 {
   padding-top: 6rem;
+  margin: 0 auto;
+}
+
+section.con1 .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 120rem;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=social.css.map */

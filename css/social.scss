@@ -1,5 +1,11 @@
 
 section.con1{
   padding-top: 6rem;
-
+  margin: 0 auto;
+  .inner{
+    display: flex;
+    justify-content: left;
+    width: 120rem;
+    margin: 0 auto;
+  }
 }
