@@ -1,96 +1,33 @@
-.header-1 {
-  z-index: 200;
-  width: 100%;
-  position: fixed;
-  height: 12rem;
-  font-size: 1.4rem;
-  background-color: rgba(255, 255, 255, 0.7);
-  vertical-align: middle;
+.con1 {
+  padding-top: 5rem;
+  height: 50rem;
 }
 
-.header-1 a {
-  display: block;
-  padding: 0 0 5px;
-  position: relative;
-  text-decoration: none;
-}
-
-.header-1 a::before,
-.header-1 a::after {
-  border-bottom: solid 2px #a1a5be;
-  bottom: 0;
-  content: "";
-  display: block;
-  position: absolute;
-  transition: all .3s ease;
-  -webkit-transition: all .3s ease;
-  width: 0;
-}
-
-.header-1 a::before {
-  left: 50%;
-}
-
-.header-1 a::after {
-  right: 50%;
-}
-
-.header-1 a:hover::before,
-.header-1 a:hover::after {
-  width: 50%;
-}
-
-.header-1 .inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  width: 120rem;
-  margin: 0 auto;
-}
-
-.header-1 .inner img {
-  width: 31.6rem;
-  height: 9.1rem;
-  margin-right: 10rem;
-}
-
-.header-1 .inner ul {
-  margin-top: 4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-left: 0;
-}
-
-.header-1 .inner ul a {
-  color: #222121;
-  text-decoration: none;
-  padding: 1rem;
-}
-
-.header-1 .inner ul li {
-  list-style: none;
-}
-
-.main-pic {
-  padding-top: 12.7rem;
-}
-
-.main-pic .image {
-  height: auto;
-  max-height: 67rem;
-  width: 100%;
-}
-
-.inner {
+.con1 .inner {
+  font-weight: bold;
+  color: white;
   max-width: 120rem;
   width: auto;
   margin: 0 auto;
+  text-align: center;
+  background-color: #4148aa;
+  padding: 10rem;
+  border-radius: 2rem;
+}
+
+.con2 {
+  height: 50rem;
+}
+
+.con2 .inner {
+  font-weight: bold;
+  color: white;
+  max-width: 120rem;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #4148aa;
+  padding: 10rem;
+  border-radius: 2rem;
 }
 /*# sourceMappingURL=policy.css.map */

@@ -1,17 +1,31 @@
 
+
+.con1{
+  padding-top:5rem ;
+  height: 50rem;
 .inner{
+  font-weight: bold;
+  color: white;
   max-width: 120rem;
   width: auto;
   margin: 0 auto;
+  text-align: center;
+  background-color:rgb(65, 72, 170);
+  padding: 10rem;
+  border-radius: 2rem;
+}
+}
+.con2{
+  height: 50rem;
   .inner{
+    font-weight: bold;
+    color: white;
     max-width: 120rem;
     width: auto;
     margin: 0 auto;
     text-align: center;
-    }
-    
-    li{
-      display: inline;
-    }
+    background-color:rgb(65, 72, 170);
+    padding: 10rem;
+    border-radius: 2rem;
   }
 }

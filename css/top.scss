@@ -74,18 +74,18 @@ section.con3{
     height: auto;
     opacity: 0.6;
     position: absolute;
-    background-color: blue;
+    // background-color: blue;
   }
   .title{
     color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 3rem;
+    font-size: 2.2rem;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    // border: 1px solid rgb(209, 209, 209);
+    font-weight: bold;
     border-radius: 0.2rem;
     padding: 0.5rem;
   }
@@ -98,12 +98,11 @@ section.con3{
     padding: 0;
     overflow: hidden;
     height: 34rem;
-    background-color: rgb(117, 117, 204);
   }
-  
-
-
-
+  .col-sm-6:hover{
+    transition: 0.3s ;
+    background-color: rgb(36, 34, 146);
+  }
   
 }
 section.con4{
@@ -121,7 +120,8 @@ section.con4{
     position: absolute;
     top: 50%;
     left: 50%;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
+    font-weight: bold;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -134,13 +134,16 @@ section.con4{
   .col-sm-6{
     padding: 0;
     height: 34rem;
-    background-color: rgb(106, 105, 165);
+    background-color: rgb(255, 255, 255);
   }
-  .co1{
-    background-color: rgb(106, 105, 165);
+  .co1:hover{
+    transition: 0.3s ;
+    background-color: rgb(36, 34, 146);
   }
-  .co2{
-    background-color: rgb(106, 105, 165);
+  .co2:hover{
+    transition: 0.3s ;
+    background-color: rgb(36, 34, 146);
+    filter: blur(3px);
   }
 
 }
