@@ -7,8 +7,7 @@
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
   font-weight: bold;
-  
-  // 
+  // border-bottom: 1px solid gray;
   a {
     display: block;
     padding: 0 0 5px;
@@ -38,34 +37,42 @@
   }
   .inner{
     display: flex;
-    justify-content: left;
-    width: 120rem;
+    justify-content: space-between;
+    // width: 120rem;
     margin: 0 auto;
+
     img{
       width: 31.6rem;
       height: 9.1rem;
       margin-right:10rem ;
     }
-    ul{
-      margin-top: 4rem;
-      display: flex;
-      justify-content: center;
-      padding-left: 0;
-      
-      a{
-        color: rgb(34, 33, 33);
-        text-decoration: none;
-        padding:1rem;
-      }
-      li{
-        list-style: none;
+    .menu{
+      padding: 0 5rem;
+
+      ul{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        a{
+          color: rgb(34, 33, 33);
+          text-decoration: none;
+          padding:1rem;
+        }
+        li{
+          list-style: none;
+          margin: 0 25px;
+        }
       }
     }
-
   }
 }
 
-
+.container{
+  width: 80%;
+  padding:0 15px;
+  margin:0 auto;
+}
 
 .main-pic{
   padding-top: 12.7rem;
