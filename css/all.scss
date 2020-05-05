@@ -38,16 +38,17 @@
   .inner{
     display: flex;
     justify-content: space-between;
-    // width: 120rem;
     margin: 0 auto;
-
+    image-logo{
+      width: 25%;
+      height: 90%;
+    }
     img{
       width: 31.6rem;
       height: 9.1rem;
-      margin-right:10rem ;
     }
     .menu{
-      padding: 0 5rem;
+      width: 100%;
 
       ul{
         margin-top: 4rem;
@@ -57,11 +58,10 @@
         a{
           color: rgb(34, 33, 33);
           text-decoration: none;
-          padding:1rem;
         }
         li{
           list-style: none;
-          margin: 0 25px;
+          margin: 0 2.5rem;
         }
       }
     }
