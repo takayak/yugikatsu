@@ -15,6 +15,7 @@
     <link href="css/shere.css" rel="stylesheet" />
     <link href="css/profile.css" rel="stylesheet" />
     <link href="css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
 
   <header>
@@ -45,26 +46,23 @@
     </div>
   </header>
   <body>
-    <div class="container">
+    <div id="container">
       <div class="title">
         <div class="profile">
-          <p>
+          <h1>
             プロフィール
-          </p>
+          </h1>
         </div>
       </div>
 
-      <section class="con2">
-        <div class="left-con">
-          <div class="inner">
+      <div class="container">
+        <div class="row">
+          <div class="left-con col-md-6 col-xs-12">
             <div class="profile-pic"><img alt="header-icon" class="image"
               src="img/header-7.png" />
             </div>
-
           </div>
-        </div>
-        <div class="right-con">
-          <div class="inner">
+          <div class="right-con col-md-6 col-xs-12">
             <p class="name">
               <span>柚木　克也</span>
               (ゆぎ　かつや)
@@ -77,9 +75,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="profile_box">
+      <div class="profile_box">
         <div class="block">
           <div class="left-block">
             <h3>
@@ -127,19 +125,62 @@
             </div>
           </div>
         </div>
-      </section>
-
+      </div>
     </div>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <script type="text/javascript">
-      $(function(){
-        ('.header-1').fadeIn(3000);
-      });
-    <script>
-
   </body>
 
   <footer>
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="name">柚木克也オフィシャルサイト</p>
+          </div>
+        <div class="row">
+          <div class="left-block col-sm-4">
+            <adress>
+              <p class="head">柚木克也事務所</p>
+              <p class="body">
+                〒190-1221<br>
+                西多摩郡瑞穂町箱根ヶ崎461-3<br>
+                TEL：042-556-9512<br>
+              </p>
+            </adress>
+          </div>
 
+          <div class="center-block col-sm-5">
+            <p class="head">お問い合わせ</p>
+            <div class="body">
+              <p>柚木克也へのお問い合わせはメールで24時間受け付けています。<br>
+                下記よりご連絡ください。<br>
+                ※メールでの返信がない場合、お手数ですがお電話にてお問い合わせください。
+              </p>
+              <p class="contact">
+                <a href="mailto:yugikatsuya@gmail.com" id="mailto">メールを送る</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="right-block col-sm-3">
+            <div class="banner">
+              <ul>
+                <li><a href="https://www.facebook.com/yugishoji.cvs/" target="_blank"><img src="img/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.town.mizuho.tokyo.jp/gikai/index.html" target="_blank"><img src="img/mizuho-gikai.png" alt="自民党"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      ('.header-1').fadeIn(3000);
+    });
+  <script>
+
 </html>

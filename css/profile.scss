@@ -1,26 +1,33 @@
+#container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 80%;
+}
+
 .title{
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   padding-top: 11rem;
 }
 
-section.con2{
+.container{
   display: flex;
-  margin-bottom: 10px;
-  font-size: 16px;
-  .left-con{
-    width: 50%;
-    margin: 0 ,auto;
-    justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  .row{
+    .left-con{
+      margin: 0 ,auto;
+      justify-content: center;
 
-  }
-  .right-con{
-    width: 50%;
-    margin: 0 ,auto;
-    justify-content: center;
-    .inner{
-      padding: 15rem 0 5rem;
+    }
+    .right-con{
+      margin: 0 ,auto;
+      justify-content: center;
       .name{
+        padding: 5rem 0 1rem;
+        text-align: center;
         span{
           color: #005500;
           font-size: 30px;
@@ -36,7 +43,7 @@ section.con2{
   width: auto;
   .image{
     margin: 0 auto;
-    padding: 3rem 6rem;
+    padding: 2rem 4rem;
     height: auto;
     max-height: 50rem;
     width: 100%;
@@ -48,6 +55,7 @@ section.con2{
   padding: 40px;
   border: #ddd solid 10px;
   font-size: 15px;
+  margin-bottom: 10rem;
   .block{
     display: flex;
     .left-block{
