@@ -1,7 +1,7 @@
 section.con1 {
   background-color: #6969b1;
   color: whitesmoke;
-  width: 100vw;
+  width: 100%;
 }
 
 section.con1 .title-head {
@@ -23,7 +23,7 @@ section.con1 .content {
 
 section.con1 .inner {
   max-width: 120rem;
-  width: auto;
+  width: 100%;
   margin: 0 auto;
 }
 

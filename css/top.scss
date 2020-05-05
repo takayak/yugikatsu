@@ -1,7 +1,7 @@
 section.con1{
   background-color:rgb(105, 105, 177);
   color: whitesmoke;
-  width: 100vw;
+  width: 100%;
   .title-head{
     height: 7.4rem;
     max-width: 36rem;
@@ -18,12 +18,12 @@ section.con1{
   }
   .inner{
     max-width: 120rem;
-    width: auto;
+    width: 100%;
     margin: 0 auto;
   }
   .col-sm-4{
     height: 27rem;
-    // border: 1px solid gray;
+    // box-sizing: border-box;
   }
   .co1{
     background-color:rgb(72, 72, 172);
