@@ -17,30 +17,45 @@
     <link href="css/profile.css" rel="stylesheet" />
     <link href="css/policy.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/use/header-slide.js">
-    </script>
+    <script src="js/use/header-slide.js"></script>
     <script src="js/use/menu-humbergar.js"></script>
+    <script>
+    $('a[href^="#"]').click(function() {
+      // スクロールの速度
+      var speed = 1000; // ミリ秒で記述
+      var href = $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : href); // 移動先となる要素を取得します。
+      var position = target.offset().top;// 移動先の位置を取得します
+      $('body,html').animate({
+        scrollTop: position
+      }, speed, 'swing');
+      return false;
+    });
+  </script>
+
   </head>
-  
     <div class="header-1">
       <div class="container">
         <div class="inner">
           <img alt="header-icon" class="image-logo" src="img/logo.png" />
           <div class="menu">
             <ul>
-              <a href="index.html">
+              <a href="#top-parent">
                 <li>TOP</li>
               </a>
-              <a href="policy.html">
+              <a href="#policy-parent">
                 <li>政策</li>
               </a>
-              <a href="profile.html">
+              <a href="#profile-parent">
                 <li>プロフィール</li>
               </a>
-              <a href="social.html">
-                <li>social</li>
+              <a href="#footer">
+                <li>お問い合わせ</li>
               </a><a href="#">
                 <li>ブログ</li>
+              </a>
+              <a href="https://www.facebook.com/yugishoji.cvs/" target="_blank">
+                <li><img src="img/facebook_logo.png" alt="Facebook"></li>
               </a>
             </ul>
           </div>
@@ -50,14 +65,13 @@
   </header>
 
   <body>
-    <div class="top-parent">
-
+    <div id="top-parent">
       <div id="container">
         <div class="main-pic">
           <div class="pic"><img alt="header-icon" class="image" src="img/header-6.png" /></div>
           <div class="pic"><img alt="header-icon" class="image" src="img/h-t1.png" /></div>
         </div>
-  
+
         <section class="con1">
           <div class="inner">
             <div class="row">
@@ -79,8 +93,7 @@
             </div>
           </div>
         </section>
-        
-  
+
         <section class="con3">
           <div class="inner">
             <div class="row">
@@ -106,7 +119,6 @@
               <div class="col-sm-6 co2"><img alt="header-icon" class="image"
                   src="img/machi-1.jpg" />
                 <div class="title">ブログ</div>
-  
               </div>
             </div>
           </div>
@@ -115,10 +127,9 @@
         <section class="con6"></section>
       </div>
     </div>
-    
-    
+
 <!-- 政策 start -->
-    <div class="policy-parent">
+    <div id="policy-parent">
       <div id="container">
         <section class="con1">
           <div class="inner">
@@ -126,7 +137,6 @@
               <div>
                 <h1><span class="frag">経済</span>- 瑞穂町の活性 -</h1>
               </div>
-              
               <h2>東京都西多摩郡瑞穂町→東京都瑞穂市へ</h2>
               <div class="box1__content row">
                 <div class = "left col-sm-6">
@@ -160,7 +170,7 @@
 
 <!-- プロフィール -->
 
-    <div class="profile-parent">
+    <div id="profile-parent">
       <div id="container">
         <div class="title">
           <div class="profile">
@@ -190,7 +200,7 @@
             </div>
           </div>
         </div>
-  
+
         <div class="profile_box">
           <div class="block">
             <div class="left-block">
@@ -243,13 +253,11 @@
       </div>
     </body>
     </div>
-
     <!-- プロフィール end -->
-
 
     <!-- footer start -->
     <footer>
-      <div class="footer">
+      <div id="footer">
         <div class="container-fluid">
           <div class="row">
             <div class="col-xs-12">
@@ -266,7 +274,6 @@
                 </p>
               </adress>
             </div>
-  
             <div class="center-block col-sm-5">
               <p class="head">お問い合わせ</p>
               <div class="body">
@@ -279,7 +286,6 @@
                 </p>
               </div>
             </div>
-  
             <div class="right-block col-sm-3">
               <div class="banner">
                 <ul>

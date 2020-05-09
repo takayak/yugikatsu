@@ -1,18 +1,18 @@
-.profile-parent #container {
+#profile-parent #container {
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  width: 80%;
+  width: 90%;
 }
 
-.profile-parent .title {
+#profile-parent .title {
   font-size: 30px;
   text-align: center;
   padding-top: 11rem;
 }
 
-.profile-parent .container {
+#profile-parent .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,37 +20,37 @@
   font-size: 1.5rem;
 }
 
-.profile-parent .container .row .left-con {
+#profile-parent .container .row .left-con {
   margin: 0 ,auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.profile-parent .container .row .right-con {
+#profile-parent .container .row .right-con {
   margin: 0 ,auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.profile-parent .container .row .right-con .name {
+#profile-parent .container .row .right-con .name {
   padding: 5rem 0 1rem;
   text-align: center;
 }
 
-.profile-parent .container .row .right-con .name span {
+#profile-parent .container .row .right-con .name span {
   color: #005500;
   font-size: 30px;
   font-weight: bold;
 }
 
-.profile-parent .profile-pic {
+#profile-parent .profile-pic {
   text-align: center;
   width: auto;
 }
 
-.profile-parent .profile-pic .image {
+#profile-parent .profile-pic .image {
   margin: 0 auto;
   padding: 2rem 4rem;
   height: auto;
@@ -59,20 +59,20 @@
   max-width: 120rem;
 }
 
-.profile-parent .profile_box {
+#profile-parent .profile_box {
   padding: 40px;
   border: #ddd solid 10px;
   font-size: 15px;
   margin-bottom: 10rem;
 }
 
-.profile-parent .profile_box .block {
+#profile-parent .profile_box .block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.profile-parent .profile_box .block .left-block {
+#profile-parent .profile_box .block .left-block {
   width: 50%;
   margin: 0 ,auto;
   -webkit-box-pack: center;
@@ -80,22 +80,22 @@
           justify-content: center;
 }
 
-.profile-parent .profile_box .block .left-block h3 {
+#profile-parent .profile_box .block .left-block h3 {
   margin: 0 0 16px;
   color: #009b62;
   font-size: 18px;
   font-weight: bold;
 }
 
-.profile-parent .profile_box .block .left-block h3 .tabel tbody tr th {
+#profile-parent .profile_box .block .left-block h3 .tabel tbody tr th {
   padding: 0 16px 0 0;
 }
 
-.profile-parent .profile_box .block .left-block h3 .tabel tbody tr td {
+#profile-parent .profile_box .block .left-block h3 .tabel tbody tr td {
   padding: 0 0 4px;
 }
 
-.profile-parent .profile_box .block .right-block {
+#profile-parent .profile_box .block .right-block {
   width: 50%;
   margin: 0 ,auto;
   -webkit-box-pack: center;
@@ -103,7 +103,7 @@
           justify-content: center;
 }
 
-.profile-parent .profile_box .block .right-block h3 {
+#profile-parent .profile_box .block .right-block h3 {
   margin: 0 0 16px;
   color: #009b62;
   font-size: 18px;

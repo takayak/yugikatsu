@@ -1,9 +1,8 @@
 
-.policy-parent{
-
+#policy-parent{
   .con1{
     font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-    padding-top:5rem ;
+    padding-top:12rem ;
     height: 50rem;
     .inner{
     font-weight: bold;
@@ -12,12 +11,10 @@
     width: auto;
     margin: 0 auto;
     text-align: center;
-    
       .box1{
         background-color: #fff;
         margin: 0 auto;
         width: 80%;
-        
         h1{
           font-size: 3.5rem;
           margin-bottom: 2rem;

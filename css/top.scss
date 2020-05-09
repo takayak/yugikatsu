@@ -1,4 +1,4 @@
-.top-parent{
+#top-parent{
   section.con1{
     background-color:rgb(105, 105, 177);
     color: whitesmoke;
@@ -36,7 +36,7 @@
       background-color:rgb(99, 99, 197);
     }
   }
-  
+
   section.con2{
     .inner{
       max-width: 120rem;
@@ -47,7 +47,6 @@
       height: 25rem;
       background-color: #fff;
       border: 1px solid gray;
-  
     }
     .col-sm-8{
       height: 25rem;
@@ -55,7 +54,7 @@
       border: 1px solid gray;
     }
   }
-  
+
   section.con3{
     img{
       width: 61.5rem;
@@ -94,7 +93,7 @@
       background-color: rgb(36, 34, 146);
     }
   }
-  
+
   section.con4{
     img{
       max-width: 61.5rem;

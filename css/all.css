@@ -41,7 +41,11 @@
   width: 50%;
 }
 
-.header-1 .inner {
+.header-1 .container {
+  max-height: 100%;
+}
+
+.header-1 .container .inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,23 +53,24 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
+  max-height: 100%;
 }
 
-.header-1 .inner image-logo {
+.header-1 .container .inner image-logo {
   width: 25%;
   height: 90%;
 }
 
-.header-1 .inner img {
+.header-1 .container .inner img {
   width: 31.6rem;
   height: 9.1rem;
 }
 
-.header-1 .inner .menu {
+.header-1 .container .inner .menu {
   width: 100%;
 }
 
-.header-1 .inner .menu ul {
+.header-1 .container .inner .menu ul {
   margin-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,20 +81,20 @@
   padding-left: 0;
 }
 
-.header-1 .inner .menu ul a {
+.header-1 .container .inner .menu ul a {
   color: #222121;
   text-decoration: none;
+  margin: auto;
 }
 
-.header-1 .inner .menu ul li {
+.header-1 .container .inner .menu ul li {
   list-style: none;
   margin: 0 2.5rem;
 }
 
-.container {
-  width: 80%;
-  padding: 0 15px;
-  margin: 0 auto;
+.header-1 .container .inner .menu ul li img {
+  width: 3rem;
+  height: 3rem;
 }
 
 .main-pic {
@@ -106,7 +111,7 @@
   max-width: 120rem;
 }
 
-.footer {
+#footer {
   padding: 40px 0 20px;
   background-color: #009b62;
   color: #fff;
@@ -114,27 +119,27 @@
   line-height: 1.5;
 }
 
-.footer .container-fluid {
+#footer .container-fluid {
   padding: 0 5rem;
 }
 
-.footer p.name {
+#footer p.name {
   margin: 0 0 30px;
   font-size: 20px;
   font-weight: bold;
 }
 
-.footer .left-block p.head {
+#footer .left-block p.head {
   font-size: 18px;
   font-weight: bold;
 }
 
-.footer .center-block p.head {
+#footer .center-block p.head {
   font-size: 18px;
   font-weight: bold;
 }
 
-.footer .center-block .body .contact {
+#footer .center-block .body .contact {
   margin: 30px 0;
   text-align: center;
   display: inline-block;
@@ -145,22 +150,22 @@
   cursor: pointer;
 }
 
-.footer .center-block .body .contact a {
+#footer .center-block .body .contact a {
   color: #009b62;
   font-size: 16px;
   font-weight: bold;
 }
 
-.footer .right-block .banner ul {
+#footer .right-block .banner ul {
   list-style: none;
 }
 
-.footer .right-block .banner ul li {
+#footer .right-block .banner ul li {
   border: solid 2px #ffffff;
   margin: 1rem 0;
 }
 
-.footer .right-block .banner ul li img {
+#footer .right-block .banner ul li img {
   max-width: 100%;
 }
 /*# sourceMappingURL=all.css.map */

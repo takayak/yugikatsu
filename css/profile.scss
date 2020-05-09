@@ -1,18 +1,16 @@
-.profile-parent{
+#profile-parent{
   #container{
     margin-right: auto;
     margin-left: auto;
     padding-right: 15px;
     padding-left: 15px;
-    width: 80%;
+    width: 90%;
   }
-  
   .title{
     font-size: 30px;
     text-align: center;
     padding-top: 11rem;
   }
-  
   .container{
     display: flex;
     margin-bottom: 1rem;
@@ -21,7 +19,6 @@
       .left-con{
         margin: 0 ,auto;
         justify-content: center;
-  
       }
       .right-con{
         margin: 0 ,auto;
@@ -38,7 +35,6 @@
       }
     }
   }
-  
   .profile-pic{
     text-align: center;
     width: auto;
@@ -51,7 +47,6 @@
       max-width: 120rem;
     }
   }
-  
   .profile_box{
     padding: 40px;
     border: #ddd solid 10px;

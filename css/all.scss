@@ -35,44 +35,56 @@
   a:hover::after {
     width: 50%;
   }
-  .inner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    image-logo{
-      width: 25%;
-      height: 90%;
-    }
-    img{
-      width: 31.6rem;
-      height: 9.1rem;
-    }
-    .menu{
-      width: 100%;
+  .container{
+    max-height: 100%;
 
-      ul{
-        margin-top: 4rem;
-        display: flex;
-        justify-content: center;
-        padding-left: 0;
-        a{
-          color: rgb(34, 33, 33);
-          text-decoration: none;
-        }
-        li{
-          list-style: none;
-          margin: 0 2.5rem;
+    .inner{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-height: 100%;
+      image-logo{
+        width: 25%;
+        height: 90%;
+      }
+      img{
+        width: 31.6rem;
+        height: 9.1rem;
+      }
+      .menu{
+        width: 100%;
+
+        ul{
+          margin-top: 4rem;
+          display: flex;
+          justify-content: center;
+          padding-left: 0;
+          a{
+            color: rgb(34, 33, 33);
+            text-decoration: none;
+            margin: auto;
+
+          }
+          li{
+            list-style: none;
+            margin: 0 2.5rem;
+
+            img{
+              width: 3rem;
+              height: 3rem;
+            }
+          }
         }
       }
     }
   }
 }
 
-.container{
-  width: 80%;
-  padding:0 15px;
-  margin:0 auto;
-}
+// .container{
+//   width: 80%;
+//   padding:0 15px;
+//   margin:0 auto;
+// }
 
 .main-pic{
   padding-top: 12.7rem;
@@ -87,7 +99,7 @@
   }
 }
 
-.footer{
+#footer{
   padding: 40px 0 20px;
   background-color: #009b62;
   color: #fff;
