@@ -2,12 +2,13 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  height: 11rem;
+  // height: 11rem;
+  padding: 1rem 0;
   font-size: 1.4rem;
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
   font-weight: bold;
-  // border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray;
   a {
     display: block;
     padding: 0 0 5px;
@@ -43,35 +44,30 @@
       justify-content: space-between;
       margin: 0 auto;
       max-height: 100%;
-      image-logo{
-        width: 25%;
+      .image-logo{
+        width: 30%;
         height: 90%;
+        margin: auto 0;
       }
-      img{
-        width: 31.6rem;
-        height: 9.1rem;
-      }
-      .menu{
+      .navbar{
         width: 100%;
-
-        ul{
-          margin-top: 4rem;
-          display: flex;
-          justify-content: center;
-          padding-left: 0;
-          a{
-            color: rgb(34, 33, 33);
-            text-decoration: none;
-            margin: auto;
-
-          }
-          li{
-            list-style: none;
-            margin: 0 2.5rem;
-
-            img{
-              width: 3rem;
-              height: 3rem;
+        .navbar-toggler{
+        }
+        #Navber{
+          ul{
+            display: flex;
+            justify-content: space-around;
+            a{
+              color: rgb(34, 33, 33);
+              text-decoration: none;
+            }
+            li{
+              list-style: none;
+              margin: auto 2.5rem;
+              img{
+                width: 3rem;
+                height: 3rem;
+              }
             }
           }
         }

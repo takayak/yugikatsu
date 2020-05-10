@@ -2,11 +2,12 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  height: 11rem;
+  padding: 1rem 0;
   font-size: 1.4rem;
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
   font-weight: bold;
+  border-bottom: 1px solid gray;
 }
 
 .header-1 a {
@@ -56,43 +57,35 @@
   max-height: 100%;
 }
 
-.header-1 .container .inner image-logo {
-  width: 25%;
+.header-1 .container .inner .image-logo {
+  width: 30%;
   height: 90%;
+  margin: auto 0;
 }
 
-.header-1 .container .inner img {
-  width: 31.6rem;
-  height: 9.1rem;
-}
-
-.header-1 .container .inner .menu {
+.header-1 .container .inner .navbar {
   width: 100%;
 }
 
-.header-1 .container .inner .menu ul {
-  margin-top: 4rem;
+.header-1 .container .inner .navbar #Navber ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-left: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.header-1 .container .inner .menu ul a {
+.header-1 .container .inner .navbar #Navber ul a {
   color: #222121;
   text-decoration: none;
-  margin: auto;
 }
 
-.header-1 .container .inner .menu ul li {
+.header-1 .container .inner .navbar #Navber ul li {
   list-style: none;
-  margin: 0 2.5rem;
+  margin: auto 2.5rem;
 }
 
-.header-1 .container .inner .menu ul li img {
+.header-1 .container .inner .navbar #Navber ul li img {
   width: 3rem;
   height: 3rem;
 }

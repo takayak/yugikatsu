@@ -12,13 +12,15 @@
     <link href="css/top.css" rel="stylesheet" />
     <link href="css/all.css" rel="stylesheet" />
     <link href="css/shere/header-humbergar-menu.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link href="slick/slick.css" rel="stylesheet" type="text/css" />
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" />
     <link href="css/profile.css" rel="stylesheet" />
     <link href="css/policy.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/use/header-slide.js"></script>
     <script src="js/use/menu-humbergar.js"></script>
+    <script src="js/use/bootstrap.min.js"></script>
     <script>
     $('a[href^="#"]').click(function() {
       // スクロールの速度
@@ -32,33 +34,41 @@
       return false;
     });
   </script>
-
   </head>
+
+  <header>
     <div class="header-1">
       <div class="container">
         <div class="inner">
           <img alt="header-icon" class="image-logo" src="img/logo.png" />
-          <div class="menu">
-            <ul>
-              <a href="#top-parent">
-                <li>TOP</li>
-              </a>
-              <a href="#policy-parent">
-                <li>政策</li>
-              </a>
-              <a href="#profile-parent">
-                <li>プロフィール</li>
-              </a>
-              <a href="#footer">
-                <li>お問い合わせ</li>
-              </a><a href="#">
-                <li>ブログ</li>
-              </a>
-              <a href="https://www.facebook.com/yugishoji.cvs/" target="_blank">
-                <li><img src="img/facebook_logo.png" alt="Facebook"></li>
-              </a>
-            </ul>
-          </div>
+          <!-- <nav class=“navbar navbar-default container”> -->
+          <nav class="navbar navbar-expand-md navbar-light ">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="レスポンシブ・ナビゲーションバー">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Navber">
+              <ul class="navbar-nav mt-lg-0">
+                <li class="nav-item active">
+                  <a href="#top-parent">TOP</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#policy-parent">政策</a>
+                </li>
+                <li class="#profile-parent">
+                  <a href="#profile-parent">プロフィール</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#footer">お問い合わせ</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#">ブログ</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="https://www.facebook.com/yugishoji.cvs/" target="_blank"><img src="img/facebook_logo.png" alt="Facebook"></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
     </div>
@@ -175,7 +185,7 @@
         <div class="title">
           <div class="profile">
             <h1>
-              プロフィール
+              - プロフィール -
             </h1>
           </div>
         </div>

@@ -5,11 +5,14 @@
     padding-right: 15px;
     padding-left: 15px;
     width: 90%;
+    font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   }
   .title{
-    font-size: 30px;
     text-align: center;
-    padding-top: 11rem;
+    padding-top: 13rem;
+    h1{
+      font-size: 3.5rem;
+    }
   }
   .container{
     display: flex;
