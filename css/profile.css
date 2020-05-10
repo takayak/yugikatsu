@@ -65,50 +65,53 @@
 }
 
 #profile-parent .profile_box {
-  padding: 40px;
+  padding: 2rem;
   border: #ddd solid 10px;
   font-size: 15px;
   margin-bottom: 10rem;
 }
 
-#profile-parent .profile_box .block {
+#profile-parent .profile_box .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-#profile-parent .profile_box .block .left-block {
-  width: 50%;
+#profile-parent .profile_box .container .row {
+  width: 100%;
+}
+
+#profile-parent .profile_box .container .row .left-block {
   margin: 0 ,auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 2rem;
 }
 
-#profile-parent .profile_box .block .left-block h3 {
+#profile-parent .profile_box .container .row .left-block h3 {
   margin: 0 0 16px;
   color: #009b62;
   font-size: 18px;
   font-weight: bold;
 }
 
-#profile-parent .profile_box .block .left-block h3 .tabel tbody tr th {
+#profile-parent .profile_box .container .row .left-block h3 .tabel tbody tr th {
   padding: 0 16px 0 0;
 }
 
-#profile-parent .profile_box .block .left-block h3 .tabel tbody tr td {
+#profile-parent .profile_box .container .row .left-block h3 .tabel tbody tr td {
   padding: 0 0 4px;
 }
 
-#profile-parent .profile_box .block .right-block {
-  width: 50%;
+#profile-parent .profile_box .container .row .right-block {
   margin: 0 ,auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-#profile-parent .profile_box .block .right-block h3 {
+#profile-parent .profile_box .container .row .right-block h3 {
   margin: 0 0 16px;
   color: #009b62;
   font-size: 18px;
