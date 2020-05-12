@@ -22,19 +22,38 @@
     <script src="js/use/header-slide.js"></script>
     <script src="js/use/menu-humbergar.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-    $('a[href^="#"]').click(function() {
-      // スクロールの速度
-      var speed = 1000; // ミリ秒で記述
-      var href = $(this).attr("href");
-      var target = $(href == "#" || href == "" ? 'html' : href); // 移動先となる要素を取得します。
-      var position = target.offset().top;// 移動先の位置を取得します
-      $('body,html').animate({
-        scrollTop: position
-      }, speed, 'swing');
-      return false;
-    });
-  </script>
+    <script>window.onload = function() {
+      scroll_effect();
+    
+      $(window).scroll(function(){
+       scroll_effect();
+      });
+      function scroll_effect(){
+       $('.effect-fade').each(function(){
+        var elemPos = $(this).offset().top;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll > elemPos - windowHeight){
+         $(this).addClass('effect-scroll');
+        }
+       });
+      }
+    
+      // ページ内スクロール
+      $(function(){
+        $('a[href^="#"]').click(function(){
+          var speed = 500;
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          var position = position - 80; 
+          $("html, body").animate({scrollTop:position}, speed, "swing");
+          return false;
+        });
+      });    
+    };
+    
+    </script>
   </head>
 
   <header>
@@ -143,7 +162,7 @@
 <!-- 政策 start -->
     <div id="policy-parent">
       <div id="container">
-        <section class="con1">
+        <section class="con1 effect-fade">
           <div class="inner">
             <div class="box1">
               <div>
@@ -163,7 +182,7 @@
             </div>
           </div>
         </div>
-        <div class ="con2">
+        <div class ="con2 effect-fade">
           <div class = "inner">
             <div class="box2">
               <h1><span class="frag">生活</span>- 必要施設 -</h1>
@@ -182,7 +201,7 @@
 
 <!-- プロフィール -->
 
-    <div id="profile-parent">
+    <div id="profile-parent" class="effect-fade">
       <div id="container">
         <div class="title">
           <div class="profile">
