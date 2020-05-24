@@ -24,21 +24,21 @@
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script>window.onload = function() {
       scroll_effect();
-    
+
       $(window).scroll(function(){
-       scroll_effect();
+      scroll_effect();
       });
       function scroll_effect(){
-       $('.effect-fade').each(function(){
+      $('.effect-fade').each(function(){
         var elemPos = $(this).offset().top;
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
         if (scroll > elemPos - windowHeight){
-         $(this).addClass('effect-scroll');
+        $(this).addClass('effect-scroll');
         }
-       });
+      });
       }
-    
+
       // ページ内スクロール
       $(function(){
         $('a[href^="#"]').click(function(){
@@ -50,9 +50,8 @@
           $("html, body").animate({scrollTop:position}, speed, "swing");
           return false;
         });
-      });    
+      });
     };
-    
 
     $(function(){
       $(".navbar-toggler").click(function(){
@@ -109,6 +108,29 @@
           <div class="pic"><img alt="header-icon" class="image" src="img/header-6.png" /></div>
           <div class="pic"><img alt="header-icon" class="image" src="img/h-t1.png" /></div>
         </div>
+      <div id="container">
+        <div class="row">
+          <div class="left-con col-md-6 col-xs-12">
+            <div class="profile-pic"><img alt="header-icon" class="image"
+              src="img/header-7.png" />
+            </div>
+          </div>
+          <div class="right-con col-md-6 col-xs-12">
+            <div class="message-head"><img alt="header-icon" class="image"
+              src="img/machikarashihe.png" />
+            </div>
+            <div class="message-body">
+              <p>
+                2017年から2020年にかけて、瑞穂町では人口が1,000人減っています。<br><br>
+                瑞穂市を人口減少から人口増加の自治体にすべく、積極的な制作にもと<br><br>
+                『瑞穂街を町から市へ』という目標を掲げ、瑞穂町の活性化を進めていきます。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
         <!-- <section class="con1">
           <div class="inner">
@@ -171,6 +193,7 @@
       <div id="container">
         <section class="con1 effect-fade">
           <div class="inner">
+            <div class="title">柚木克也の政策提言</div>
             <div class="box1">
               <div>
                 <h1><span class="frag">経済</span>- 瑞穂町の活性 -</h1>
