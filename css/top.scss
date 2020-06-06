@@ -1,22 +1,22 @@
 #top-parent{
+  padding-top: 10rem;
   #container{
     margin-right: auto;
     margin-left: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     width: 90%;
     font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
     .row{
-      margin: 20rem 0 0 0 ;
+      margin: 2rem 0 5rem 0 ;
       .left-con{
         img{
-          max-width: 500px;
+          padding: 15rem 0;
+          max-width: 100%;
         }
       }
       .right-con{
         text-align: center;
         img{
-          max-width: 500px;
+          max-width: 100%;
           padding: 8rem 0;
           text-align: center;
         }

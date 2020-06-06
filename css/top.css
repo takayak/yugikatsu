@@ -1,19 +1,22 @@
 @charset "UTF-8";
+#top-parent {
+  padding-top: 10rem;
+}
+
 #top-parent #container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
   width: 90%;
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
 #top-parent #container .row {
-  margin: 20rem 0 0 0;
+  margin: 2rem 0 5rem 0;
 }
 
 #top-parent #container .row .left-con img {
-  max-width: 500px;
+  padding: 15rem 0;
+  max-width: 100%;
 }
 
 #top-parent #container .row .right-con {
@@ -21,7 +24,7 @@
 }
 
 #top-parent #container .row .right-con img {
-  max-width: 500px;
+  max-width: 100%;
   padding: 8rem 0;
   text-align: center;
 }
