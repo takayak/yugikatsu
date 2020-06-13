@@ -84,7 +84,7 @@
 }
 
 #top-parent {
-  padding-top: 10rem;
+  padding-top: 10vw;
 }
 
 #top-parent #container {
@@ -101,18 +101,18 @@
 #top-parent #container .row .right-con {
   text-align: center;
   position: relative;
+  padding: 0;
 }
 
 #top-parent #container .row .right-con img.image {
-  width: 50rem;
-  padding: 8rem 0;
+  width: 40vw;
+  padding: 3vw 0;
   text-align: center;
 }
 
 #top-parent #container .row .right-con .message-body__text .color1 {
   color: white;
   background-color: #b10e0e;
-  font-size: 3.5rem;
   font-weight: 800;
   padding: 4px 6px 4px 6px;
   border-radius: 2px;
@@ -120,31 +120,28 @@
 
 #top-parent #container .row .right-con .message-body__text .color3 {
   color: #406ec4;
-  font-size: 3.5rem;
   font-weight: 800;
 }
 
 #top-parent #container .row .right-con .message-body p {
-  font-size: 3rem;
-  line-height: 6rem;
+  font-size: 2.1vw;
+  line-height: 5vw;
 }
 
 #top-parent #container .row .right-con .message-body .point {
   margin: 0 auto;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
+  text-align: center;
   text-align: left;
 }
 
 #top-parent #container .row .right-con .message-body h2 {
   position: relative;
   background: #eff4ff;
-  padding: 2px 5px 2px 20px;
-  font-size: 20px;
+  padding: 2px 5px 2px 30px;
+  font-size: 1.7vw;
   color: #474747;
   border-radius: 0 10px 10px 0;
-  line-height: 5rem;
+  line-height: 5vw;
 }
 
 #top-parent #container .row .right-con .message-body h2:before {
@@ -157,9 +154,9 @@
   color: white;
   background: #81a1e4;
   font-weight: normal;
-  width: 4.5rem;
+  width: 4.5vw;
+  height: 4.5vw;
   text-align: center;
-  height: 4.5rem;
   line-height: 4.5rem;
   left: -1.35em;
   top: 50%;
@@ -179,5 +176,11 @@
 
 #top-parent #container .row .right-con .profile-pic img.image2 {
   width: 25rem;
+}
+
+@media (min-width: 1200px) {
+  #top-parent div {
+    font-size: 24px;
+  }
 }
 /*# sourceMappingURL=top.css.map */

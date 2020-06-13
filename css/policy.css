@@ -14,7 +14,7 @@
 
 #policy-parent #container .con1 {
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2vw 5vw 2vw 5vw;
 }
 
 #policy-parent #container .con1 .inner {
@@ -33,8 +33,9 @@
 }
 
 #policy-parent #container .con1 .inner .box1 h1 {
-  font-size: 3.5rem;
-  margin-bottom: 2rem;
+  display: inline-block;
+  font-size: 5vw;
+  padding: 3vw 0;
 }
 
 #policy-parent #container .con1 .inner .box1 h2 {
@@ -55,22 +56,24 @@
 
 #policy-parent #container .con1 .inner .box1__content img {
   width: 100%;
+  max-height: 100%;
   border: solid 2px #747474;
   padding: 1rem;
 }
 
 #policy-parent #container .frag {
+  display: inline-block;
   background-color: #6464c9;
   color: white;
   font-weight: bold;
   float: left;
-  font-size: 2rem;
-  padding: 2.5rem;
+  font-size: 4vw;
+  padding: 2.5vw;
 }
 
 #policy-parent #container .con2 {
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2vw 5vw 2vw 5vw;
 }
 
 #policy-parent #container .con2 .inner {
@@ -106,8 +109,27 @@
 
 #policy-parent #container .con2 .inner .box2__content img {
   width: 100%;
-  height: 100%;
+  max-height: 100%;
   border: solid 2px #747474;
   padding: 1rem;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc {
+  display: block !important;
+}
+
+.sp {
+  display: none !important;
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+  .pc {
+    display: none !important;
+  }
+  .sp {
+    display: block !important;
+  }
 }
 /*# sourceMappingURL=policy.css.map */

@@ -98,10 +98,10 @@
 }
 
 #profile-parent .profile_box {
-  padding: 2rem;
+  padding: 2vw;
   border: #ddd solid 10px;
   font-size: 15px;
-  margin: 10rem;
+  margin: 8vw;
 }
 
 #profile-parent .profile_box .container {
@@ -130,12 +130,10 @@
   font-weight: bold;
 }
 
-#profile-parent .profile_box .container .row .left-block h3 .tabel tbody tr th {
-  padding: 0 16px 0 0;
-}
-
-#profile-parent .profile_box .container .row .left-block h3 .tabel tbody tr td {
-  padding: 0 0 4px;
+#profile-parent .profile_box .container .row .left-block h3 table tbody s
+tr th, #profile-parent .profile_box .container .row .left-block h3 table tbody s
+tr td {
+  padding: 5px 10px;
 }
 
 #profile-parent .profile_box .container .row .right-block {
