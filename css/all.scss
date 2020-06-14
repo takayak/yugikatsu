@@ -163,9 +163,17 @@
   transform : translate(0,100px);
   transition : all 1500ms;
   }
-  
+
 .effect-fade.effect-scroll {
 opacity : 1;
 transform : translate(0, 0);
 }
 
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc { display: block !important; }
+.sp { display: none !important; }
+/* スマートフォンで見たときは画像を表示さしない */
+@media only screen and (max-width: 960px) {
+.pc { display: none !important; }
+.sp { display: none !important; }
+}

@@ -168,6 +168,14 @@
   border-bottom: solid 2px #4967b4;
 }
 
+#top-parent #container .row .right-con .message-body h2:hover {
+  background: white;
+  color: #81a1e4;
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
 #top-parent #container .row .right-con .profile-pic {
   position: absolute;
   bottom: 0;

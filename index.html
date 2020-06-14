@@ -54,7 +54,19 @@
           var href= $(this).attr("href");
           var target = $(href == "#" || href == "" ? 'html' : href);
           var position = target.offset().top;
-          var position = position - 80; 
+          var position = position - 80;
+          $("html, body").animate({scrollTop:position}, speed, "swing");
+          return false;
+        });
+      });
+
+      $(function(){
+        $('a[href^="."]').click(function(){
+          var speed = 500;
+          var href= $(this).attr("href");
+          var target = $(href == "." || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          var position = position - 80;
           $("html, body").animate({scrollTop:position}, speed, "swing");
           return false;
         });
@@ -129,31 +141,50 @@
             </div>
             <div class="message-body">
               <p class="message-body__text">
-                
                 2017年から2020年にかけて、瑞穂町では<span class="color1">人口が1,000人</span>減っています。<br>
                 瑞穂町を人口減少から人口増加の自治体にすべく、積極的な政策のもと<br>
                 <span class="color3">『瑞穂町を町から市へ』</span>という目標を掲げ、瑞穂町の活性化を進めていきます。<br>
               </p>
               <div class="row">
                 <div class="point col-md-6">
-                  <h2>農業振興地域の解除</h2>
-                  <h2>道の駅の誘致（国道１６号沿い）</h2>
-                  <h2>観光農園</h2>
-                  <h2>交通・移動対策</h2>
-                  <h2>少子化対策</h2>
+                  <h2>
+                    <a href=".nougyou">農業振興地域の解除</a>
+                  </h2>
+                  <h2>
+                    <a href=".michinoeki">道の駅の誘致（国道１６号沿い）</a>
+                  </h2>
+                  <h2>
+                    <a href=".koureika">町施設の移動・新設</a>
+                  </h2>
+                  <h2>
+                    <a href=".koutsu">交通・移動対策</a>
+                  </h2>
+                  <h2>
+                    <a href=".syoushika">少子化対策</a>
+                  </h2>
+
                 </div>
                 <div class="point col-md-6">
-                  <h2>高齢化対策</h2>
-                  <h2>観光</h2>
-                  <h2>町施設の移動・新設</h2>
-                  <h2>学力の向上</h2>
-                  <h2>箱根ヶ崎駅周辺の活性化</h2>
+                  <h2>
+                    <a href=".nougyou">箱根ヶ崎駅周辺の活性化</a>
+                  </h2>
+                  <h2>
+                    <a href=".koureika">高齢化対策</a>
+                  </h2>
+                  <h2>
+                    <a href=".michinoeki">観光農園</a>
+                  </h2>
+                  <h2>
+                    <a href=".koureika">学力の向上</a>
+                　</h2>
+                  <h2>
+                    <a href=".michinoeki">観光</a>
+                  </h2>
                 </div>
               </div>
-              
-              
+
             </div>
-            <div class="profile-pic"><img alt="header-icon" class="image2"
+            <div class="profile-pic pc"><img alt="header-icon" class="image2"
               src="img/header-7.png" />
             </div>
           </div>
@@ -163,9 +194,9 @@
     <!-- <div class="youtube">
       <h1>動画メッセージ</h1>
       <div><iframe width="560" height="315" src="https://www.youtube.com/embed/2ENIGfbowSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-      
+
     </div> -->
-    
+
 
     <!-- 政策 start -->
     <div id="policy-parent">
@@ -180,7 +211,7 @@
                   <img src="img/sky-hole.jpg" alt="瑞穂町の画像">
                 </div>
                 <div class="right col-lg-5 col-md-12">
-                  <h2 class="msr_h201"><span class="num-span">1</span>農業振興地域の解除</h1>
+                  <h2 class="msr_h201 nougyou"><span class="num-span">1</span>農業振興地域の解除</h1>
                   <p class="msr_h401">(1)半導体はじめ最先端技術の工業団地の建設</p>
                   <p class="msr_h401">(2)瑞穂町を日本のシリコンバレーに!</p>
                   <h2 class="msr_h201"><span class="num-span">2</span>箱根ヶ崎駅周辺の活性化</h1>
@@ -189,7 +220,6 @@
                   <p class="msr_h401">(3)観光資源の活用</p>
                   <p class="msr_h401">(4)商業活性化プロジェクトの立ち上げ</p>
                   <p class="msr_h401">(5)駅西側へ高齢者福祉センターの建設</p>
-                  
                 </div>
               </div>
             </div>
@@ -199,12 +229,12 @@
           <div class = "inner">
             <div class="box2">
               <h1><span class="frag">観光</span>- 魅力ある瑞穂町へ -</h1>
-              <div class="box2__content row">
+              <div class="box2__content row michinoeki">
                 <div class = "left col-sm-6 col-xs-12">
                   <img src="img/rokudou1.jpg" alt="瑞穂町の画像">
                 </div>
                 <div class="right col-sm-6">
-                  <h2 class="msr_h201"><span class="num-span">3</span>道の駅の誘致(国道 16 号沿い)</h2>
+                  <h2 class="msr_h201 "><span class="num-span">3</span>道の駅の誘致(国道 16 号沿い)</h2>
                     <p class="msr_h401">(1)瑞穂町の知名度アップ</p>
                     <p class="msr_h401">(2)商業、農業、観光の活性化</p>
                     <p class="msr_h401">(3)災害対策拠点としての活用</p>
@@ -227,7 +257,7 @@
                   <img src="img/sayamaike.jpg" alt="瑞穂町の画像">
                 </div>
                 <div class="right col-sm-6">
-                  <h2 class="msr_h201"><span class="num-span">6</span>交通・移動対策</h2>
+                  <h2 class="msr_h201 koutsu"><span class="num-span">6</span>交通・移動対策</h2>
                   <p class="msr_h401">(1)誰でも乗れるコミュニティバスの運行</p>
                   <p class="msr_h401">(2)青梅街道拡幅による歩道と車道の分離</p>
                   <p class="msr_h401">(3)町営駐車場の整備</p>
@@ -245,7 +275,7 @@
                   <img src="img/child.jpg" alt="瑞穂町の画像">
                 </div>
                 <div class="right col-sm-6">
-                  <h2 class="msr_h201"><span class="num-span">7</span>少子化対策</h2>
+                  <h2 class="msr_h201 syoushika"><span class="num-span">7</span>少子化対策</h2>
                   <p class="msr_h401">(1)18歳までの医療費の助成</p>
                   <p class="msr_h401">(2)教育費負担軽減のための支援</p>
                   <p class="msr_h401">(3)出産祝い金の給付</p>
@@ -265,7 +295,7 @@
                   <img src="img/grand.jpg" alt="瑞穂町の画像">
                 </div>
                 <div class="right col-sm-6">
-                  <h2 class="msr_h201"><span class="num-span">8</span>高齢化対策</h2>
+                  <h2 class="msr_h201 koureika"><span class="num-span">8</span>高齢化対策</h2>
                   <p class="msr_h401">(1)移動交通手段の確保（買い物難民対策）</p>
                   <p class="msr_h401">(2)町内会の加入率アップによる地域見守り活動の強化</p>
                   <p class="msr_h401">(3)高齢者団体の活動への支援拡充</p>
