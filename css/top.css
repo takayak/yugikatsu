@@ -46,11 +46,9 @@
   border-bottom: 2px solid #1B73BA;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 18px;
   margin: 0 0 20px;
   padding: 7px 0 5px 10px;
   text-align: left;
-  font-size: 3rem;
 }
 
 .msr_h301 {
@@ -95,7 +93,7 @@
 }
 
 #top-parent #container .row {
-  margin: 2rem 0 5rem 0;
+  margin: 2rem 0 2rem 0;
 }
 
 #top-parent #container .row .right-con {
@@ -123,11 +121,6 @@
   font-weight: 800;
 }
 
-#top-parent #container .row .right-con .message-body p {
-  font-size: 2.1vw;
-  line-height: 5vw;
-}
-
 #top-parent #container .row .right-con .message-body .point {
   margin: 0 auto;
   text-align: center;
@@ -137,8 +130,7 @@
 #top-parent #container .row .right-con .message-body h2 {
   position: relative;
   background: #eff4ff;
-  padding: 2px 5px 2px 30px;
-  font-size: 1.7vw;
+  padding: 2px 5px 2px 40px;
   color: #474747;
   border-radius: 0 10px 10px 0;
   line-height: 5vw;
@@ -184,11 +176,5 @@
 
 #top-parent #container .row .right-con .profile-pic img.image2 {
   width: 25rem;
-}
-
-@media (min-width: 1200px) {
-  #top-parent div {
-    font-size: 24px;
-  }
 }
 /*# sourceMappingURL=top.css.map */

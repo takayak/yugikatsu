@@ -73,12 +73,6 @@
   }
 }
 
-// .container{
-//   width: 80%;
-//   padding:0 15px;
-//   margin:0 auto;
-// }
-
 .main-pic{
   padding-top: 2vw;
   text-align: center;
@@ -112,6 +106,10 @@
       font-size: 18px;
       font-weight: bold;
     }
+    p.body{
+      font-size: 15px;
+      line-height: 2rem;
+    }
 
   }
 
@@ -121,7 +119,11 @@
       font-weight: bold;
     }
     .body{
-      .contact{
+      p{
+        font-size: 15px;
+        line-height: 2rem;
+      }
+      p.contact{
         margin: 30px 0;
         text-align: center;
         display: inline-block;
@@ -144,6 +146,9 @@
     .banner{
       ul{
         list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
         li{
           border: solid 2px #ffffff;
           margin: 1rem 0;
@@ -176,4 +181,41 @@ transform : translate(0, 0);
 @media only screen and (max-width: 960px) {
 .pc { display: none !important; }
 .sp { display: none !important; }
+}
+
+@media (min-width: 320px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 24px;
+    line-height: 5rem;
+  }
 }

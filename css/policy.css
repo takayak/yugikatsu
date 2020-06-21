@@ -5,16 +5,30 @@
 }
 
 #policy-parent #container .title {
-  font-size: 3.5rem;
-  padding-top: 5rem;
+  font-size: 3rem;
+  padding-top: 3rem;
   color: #009b62;
   border-bottom-color: #009b62;
   text-align: center;
+  font-weight: bold;
+}
+
+#policy-parent #container .title::before {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 120px;
+  border-bottom: #fff solid 2px;
+  content: "";
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-bottom-color: #009b62;
+  margin-bottom: -10px;
 }
 
 #policy-parent #container .con1 {
   font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding: 2vw 5vw 2vw 5vw;
+  padding: 2vw 1vw;
 }
 
 #policy-parent #container .con1 .inner {
@@ -34,8 +48,7 @@
 
 #policy-parent #container .con1 .inner .box1 h1 {
   display: inline-block;
-  font-size: 5vw;
-  padding: 3vw 0;
+  padding: 2vw 0;
 }
 
 #policy-parent #container .con1 .inner .box1 h2 {
@@ -43,7 +56,6 @@
 }
 
 #policy-parent #container .con1 .inner .box1 p {
-  font-size: 1.9rem;
   text-align: left;
   line-height: 3rem;
 }
@@ -52,13 +64,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 0;
 }
 
-#policy-parent #container .con1 .inner .box1__content img {
+#policy-parent #container .con1 .inner .box1__content .left img {
   width: 100%;
   max-height: 100%;
   border: solid 2px #747474;
   padding: 1rem;
+}
+
+#policy-parent #container .con1 .inner .box1__content .right {
+  padding: 0;
 }
 
 #policy-parent #container .frag {
@@ -67,50 +84,6 @@
   color: white;
   font-weight: bold;
   float: left;
-  font-size: 4vw;
-  padding: 2.5vw;
-}
-
-#policy-parent #container .con2 {
-  font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-  padding: 2vw 5vw 2vw 5vw;
-}
-
-#policy-parent #container .con2 .inner {
-  font-weight: bold;
-  color: #3d3d3d;
-  max-width: 120rem;
-  width: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#policy-parent #container .con2 .inner .box2 {
-  margin: 0 auto;
-  max-height: 100%;
-}
-
-#policy-parent #container .con2 .inner .box2 h1 {
-  font-size: 3.5rem;
-  margin-bottom: 6rem;
-}
-
-#policy-parent #container .con2 .inner .box2 p {
-  font-size: 1.9rem;
-  text-align: left;
-  line-height: 3rem;
-}
-
-#policy-parent #container .con2 .inner .box2__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#policy-parent #container .con2 .inner .box2__content img {
-  width: 100%;
-  max-height: 100%;
-  border: solid 2px #747474;
-  padding: 1rem;
+  padding: 2vw;
 }
 /*# sourceMappingURL=policy.css.map */

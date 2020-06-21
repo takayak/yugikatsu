@@ -12,10 +12,10 @@
     overflow: hidden;
     padding: 50px 0 10px;
     background-color: #009b62;
+
     h1{
       position: relative;
       padding: 0 0 10px;
-      font-size: 3rem;
       font-weight: bold;
       text-align: center;
       color: #fff;
@@ -25,27 +25,14 @@
       left: 50%;
       bottom: 0;
       width: 120px;
-      border-bottom: #fff solid 2px;
+      // border-bottom: #fff solid 2px;
       content: "";
       -webkit-transform: translateX(-50%);
       transform: translateX(-50%);
     }
   }
 
-  .title::before{
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: inherit;
-    content: "";
-    -webkit-transform: skewY(-3deg);
-    transform: skewY(-3deg);
-    -webkit-transform-origin: right;
-    transform-origin: right;
-    z-index: -1;
-  }
+
   .container{
     display: flex;
     font-size: 1.5rem;
@@ -56,10 +43,10 @@
       }
       .right-con{
         margin: 0 ,auto;
-        padding-top: 4rem;
+        padding-top: 2vw;
         justify-content: center;
         .name{
-          padding: 5rem 0 1rem;
+          padding: 4vw 0 1vw;
           text-align: center;
           span{
             color: #005500;
@@ -70,23 +57,32 @@
       }
     }
   }
+
   .profile-pic{
     text-align: center;
     width: auto;
-    .image{
-      margin: 0 auto;
-      padding: 2rem 4rem;
-      height: auto;
-      max-height: 50rem;
-      width: 100%;
-      max-width: 120rem;
+    @media (min-width: 320px){
+      .image{
+        margin: 0 auto;
+        padding: 2vw;
+        height: auto;
+        width: 300px;
+      }
+    }
+    @media (min-width: 768px){
+      .image{
+        margin: 0 auto;
+        padding: 2vw;
+        height: auto;
+        width: 500px;
+      }
     }
   }
   .profile_box{
     padding: 2vw;
     border: #ddd solid 10px;
     font-size: 15px;
-    margin: 8vw;
+    margin: 6vw;
     .container{
       display: flex;
       margin: auto;
@@ -99,7 +95,6 @@
           h3{
             margin: 0 0 16px;
             color: #009b62;
-            font-size: 18px;
             font-weight: bold;
             table{
               tbody{s
@@ -118,7 +113,6 @@
           h3{
             margin: 0 0 16px;
             color: #009b62;
-            font-size: 18px;
             font-weight: bold;
           }
         }
