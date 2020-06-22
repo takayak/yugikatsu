@@ -183,6 +183,7 @@ transform : translate(0, 0);
 .sp { display: none !important; }
 }
 
+
 @media (min-width: 320px) {
   h1 {
     font-size: 24px;
@@ -201,17 +202,19 @@ transform : translate(0, 0);
   }
 }
 
+
+
 @media (min-width: 768px) {
   h1 {
     font-size: 40px;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   p{
