@@ -127,6 +127,10 @@
   text-align: left;
 }
 
+#top-parent #container .row .right-con .message-body .row a {
+  text-decoration: none;
+}
+
 #top-parent #container .row .right-con .message-body h2 {
   position: relative;
   background: #eff4ff;
@@ -161,7 +165,7 @@
 }
 
 #top-parent #container .row .right-con .message-body h2:hover {
-  background: white;
+  background: #dce7ff;
   color: #81a1e4;
   bottom: -4px;
   opacity: 1;

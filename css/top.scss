@@ -127,7 +127,11 @@
             text-align: center;
             text-align: left;
           }
-
+          .row{
+            a{
+              text-decoration: none;
+            }
+          }
           // h2リストのデザイン
           h2{
             position: relative;
@@ -162,7 +166,7 @@
             border-bottom: solid 2px #4967b4;
           }
           h2:hover{
-            background: white;
+            background: #dce7ff;
             color:  #81a1e4;
             bottom: -4px;
             opacity: 1;
