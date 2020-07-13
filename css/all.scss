@@ -2,7 +2,6 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  top: 0 !important;
   // height: 10rem;
   height: fit-content;
   padding: 1%;
@@ -231,9 +230,9 @@ transform : translate(0, 0);
   //   padding: 0;
   //   font-size: 1.4rem;
   // }
-  .header-1{
-    .inner{
-      display: block;
-    }
-  }
+  // .header-1{
+  //   .inner{
+  //     display: block !important;
+  //   }
+  // }
 }

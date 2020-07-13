@@ -3,7 +3,6 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  top: 0 !important;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -242,9 +241,6 @@
   p {
     font-size: 24px;
     line-height: 5rem;
-  }
-  .header-1 .inner {
-    display: block;
   }
 }
 /*# sourceMappingURL=all.css.map */
