@@ -3,7 +3,11 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  padding: 1rem 0;
+  top: 0 !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 1%;
   font-size: 1.4rem;
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
@@ -55,7 +59,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin: 0 auto;
-  max-height: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .header-1 .container .inner .image-logo {
@@ -236,6 +242,9 @@
   p {
     font-size: 24px;
     line-height: 5rem;
+  }
+  .header-1 .inner {
+    display: block;
   }
 }
 /*# sourceMappingURL=all.css.map */
