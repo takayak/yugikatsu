@@ -3,11 +3,12 @@
   z-index: 200;
   width: 100%;
   position: fixed;
+  padding: 1%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  padding: 1%;
   font-size: 1.4rem;
+  min-height: 40px;
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
   font-weight: bold;
@@ -51,16 +52,11 @@
 }
 
 .header-1 .container .inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin: 0 auto;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .header-1 .container .inner .image-logo {
@@ -69,7 +65,10 @@
 }
 
 .header-1 .container .inner .navbar {
-  width: 100%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
 }
 
 .header-1 .container .inner .navbar #Navber ul {

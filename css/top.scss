@@ -49,8 +49,8 @@
   background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #fff), color-stop(0.00, #F3F5F5));
   border-bottom: 2px solid #1B73BA;
   box-sizing: border-box;
-  margin: 0 0 20px;
-  padding: 7px 0 5px 10px;
+  margin:1vw 0 1vw 0;
+  padding: 7px 0  10px;
   text-align: left;
   // font-size: 3vw;
 }
@@ -94,6 +94,11 @@
     margin-left: auto;
     width: 90%;
     font-family: 'Noto Serif JP',"游明朝", 'YuMincho', "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    // ↓フレックス交互css
+    .row-reverse{
+      // flex-flow: row-reverse;
+      flex-direction: row-reverse;
+    }
     .row{
       margin: 2rem 0 2rem 0 ;
       .right-con{
@@ -137,7 +142,8 @@
           h2{
             position: relative;
             background: #eff4ff;
-            padding: 2px 5px 2px 40px;
+            // padding: 2px 5px 2px 40px;
+            padding: 0.2vw 0.2vw 0.2vw 4vw;
             color: #474747;
             border-radius: 0 10px 10px 0;
             line-height: 5vw;
@@ -165,6 +171,7 @@
             border-radius: 50%;
             box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.29);
             border-bottom: solid 2px #4967b4;
+            font-size: 1.5vw;
           }
           h2:hover{
             background: #dce7ff;

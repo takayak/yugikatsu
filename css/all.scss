@@ -2,10 +2,14 @@
   z-index: 200;
   width: 100%;
   position: fixed;
-  // height: 10rem;
-  height: fit-content;
+  // height: 8.5vw;
+  // max-height: 90px;
+  // min-height: 37px;
+  // height: fit-content;
   padding: 1%;
+  height: fit-content;
   font-size: 1.4rem;
+  min-height: 40px;
   background-color: rgba(255, 255, 255, 0.7);
   vertical-align: middle;
   font-weight: bold;
@@ -41,16 +45,19 @@
     max-height: 100%;
 
     .inner{
-      display: flex;
-      justify-content: space-between;
+      // display: flex;
+      // justify-content: space-between;
       margin: 0 auto;
       height: fit-content;
+      background-color: rgba(255, 255, 255, 0.7);
       .image-logo{
         width: 20%;
         margin: auto 0;
+        // display: block;
       }
       .navbar{
-        width: 100%;
+        width: fit-content;
+        display: inline-block;
         #Navber{
           ul{
             display: flex;
